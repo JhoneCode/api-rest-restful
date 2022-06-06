@@ -9,8 +9,6 @@
 - _Cacheable_: As respostas para uma requisição, deverão ser explícitas ao dizer se aquela requisição, pode ou não ser armazenada em cache pelo cliente.
 
 - _Layered System_: O cliente acessa a um endpoint, sem precisar saber da complexidade, de quais passos estão sendo necessários para o servidor responder a requisição, ou quais outras camadas o servidor estará lidando, para que a requisição seja respondida.Exemplo prático na URL a seguir:
-https://graph.facebook.com/youtube
-\________________________/\______/
-    Endereço URI da API    Endpoint
+https://graph.facebook.com/youtube onde youtube é o endpoint e o restante do endereço seria a URI da API.
 
 - _Code on demand (optional)_: Dar a possibilidade da nossa aplicação pegar códigos, como o javascript, por exemplo, e executar no cliente;
